@@ -125,11 +125,14 @@
 # print('recreere sunt:', recreere)
 # print('economii sunt:', economii)
 
+# a=3
+# b=4
+# c=5
+# print('x =', (-b+((b**2-4*a*c)**(1/2)))/(2*a))
 
 
 
-
-
+print( and True and False)
 
 
 
