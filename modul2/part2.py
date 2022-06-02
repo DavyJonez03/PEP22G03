@@ -67,16 +67,33 @@
 #
 # number = int('3')
 # print('Nr as text', type(number))
-#
+# #
 # number = float('3')
 # print('Nr as text', type(number))
 
 # boolean
 
 # True_ = 3
-bool_object = True
-print(type(bool_object))
-print('Address for bool is:',id(bool_object))
+# bool_object = True
+# print(type(bool_object))
+# print('Address for bool is:',id(bool_object))
+#
+# print('Convert to bool:', bool(1))
+# print('Convert to int:', int(True))
+#
+# print('Convert to bool:', bool(0))
+# print('Convert to int:', int(False))
+
+# b = 2;
+# h = 3;
+# A = 1/2*b*h;
+#
+# print(type(A))
+# print('Rezultatul problemei este:', A)
+
+
+
+
 
 
 
