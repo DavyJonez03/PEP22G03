@@ -92,6 +92,46 @@
 # print('Rezultatul problemei este:', A)
 
 
+# baza = input('Introduceti valoarea bazei')
+# inaltime = input('Introduceti valoarea inaltimii')
+# arie = (int(baza)*int(inaltime)/2)
+# print(type(arie))
+# print("Aria este:",arie)
+
+#Problema 2
+
+# parola = 7710
+# nr_tastatura = input('Introduceti nr.')
+# nr_tastatura = int(nr_tastatura)
+# #print(type(nr_tastatura))
+# var_rez = nr_tastatura == parola
+# print('rezultatul este:',var_rez)
+
+#Probleme 3
+#
+# A = int(input('Introduceti primul numar:'))
+# B = int(input('Introduceti cel de-al doilea numar:'))
+#
+# print("Media este:", (A+B)/2)
+# print('Imparitrea numerelor:', int(A/B))
+# print('Ridicarea la putere:', A**B)
+# print('Media numerelor este:',(A+B)/2,'Impartirea numerelor:',int(A/B),'ridicarea la putere:',A**B)
+
+# venit = int(input('Introduceti venit:'))
+# cheltuieli = 50 * venit/100
+# recreere = 30 * venit/100
+# economii = 20 * venit/100
+# print('cheltuielile sunt:', cheltuieli)
+# print('recreere sunt:', recreere)
+# print('economii sunt:', economii)
+
+
+
+
+
+
+
+
 
 
 
