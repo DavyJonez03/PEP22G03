@@ -132,7 +132,6 @@
 
 
 
-print( and True and False)
 
 
 
