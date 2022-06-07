@@ -31,7 +31,7 @@
 # print(my_text[-3:-1])
 # #Slice with start stop and negative step values
 # print(my_text[-1:-5:-1])
-# print(my_text[:-15:-1])
+ print(my_text[:-15:-1])
 
 
 
