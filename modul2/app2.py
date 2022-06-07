@@ -27,6 +27,24 @@
 # print(hex(id(a)),type(a))
 # print(hex(id(b)),type(b))
 # print(hex(id(c)),type(c))
+#exercitiul 8
+# user_name = input("introduceti nume utilizator:")
+# age = input("introduceti varsta:")
+#
+# print("Cum te numesti?", user_name)
+# print("Ce varsta ai?", age)
+# print(f"Ceau Ana! Te-ai nascut in {2022 - int(age)}")
+
+# cuvant = "Astazi ma duc la \"facultate\""
+# cuvant = r'''/*\/*\*/*\/*\
+# Python
+# \./\./\./'''
+# print(cuvant)
+
+
+
+
+
 
 
 

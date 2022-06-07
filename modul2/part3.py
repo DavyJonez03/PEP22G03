@@ -31,7 +31,74 @@
 # print(my_text[-3:-1])
 # #Slice with start stop and negative step values
 # print(my_text[-1:-5:-1])
- print(my_text[:-15:-1])
+# print(my_text[:-15:-1])
+
+#String methods and functions
+
+# len() function
+
+# my_string = "Hello Python"
+# my_string = ""
+#
+# print("Length is :", len(my_string))
+#
+# my_string = "Hello Python"
+#
+# print("Length is :", my_string.__len__())
+
+# my_string = "Hello Python {0} {0}"
+#
+# print("Formated text is:", my_string.format("abcd"))
+
+#String types
+
+#Normal string
+
+# normal = "Normal string \n"
+# normal = 'Normal \n string'
+
+#Multiline string
+
+# normal1 = """Normal string
+# text"""
+# print(normal1)
+# normal2 = '''Normal
+# string'''
+# print(normal2)
+
+#Raw string
+
+# normal1 = r"""Normal string \n
+# text"""
+# print(normal1)
+# normal2 = r'''Normal
+# string'''
+# print(normal2)
+
+#Formated string
+
+# normal1 = f"""Normal string {normal1}
+# text"""
+# print(normal1)
+
+#replace method
+
+# var1 = "insert"
+# var1 = var1.replace('i', '_')
+# print('replaced I:', var1)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
