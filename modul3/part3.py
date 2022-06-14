@@ -38,3 +38,36 @@
 # print(bool(a and b))
 # print(bool(a))
 
+#WHILE LOOP
+
+# depends_on = 1
+#
+# while depends_on <= 4:
+#     depends_on += 1
+#     print("Oh shit ...")
+#     if depends_on == 4:
+#         break
+# print("Done")
+
+# n = 0
+# while n < 10:
+#     if n == 7:
+#         n += 1
+#         continue
+#     print(n)
+#     n += 1
+#
+# print("Done")
+
+n = 0
+while n < 10:
+    if n == 7:
+        n += 1
+        continue
+    print(n)
+    n += 1
+else:
+    print("Done")
+
+
+
