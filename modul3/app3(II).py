@@ -33,6 +33,28 @@
 
 #---------------------------------------------------------------------------------------
 
+# Creați o lista obiecte = [“Masa”, 5, “Scaun”, 4.5, [5,6,7],8]. Parcurgeți lista de obiecte și
+# afișați tipul fiecăruia. Challenge: Afișați tipul obiectelor în felul următor:
+# Tipul obiectului Masa este str
 
+
+# my_list = ["Masa", 5, "Scaun", 4.5, [5,6,7],8]
+# for object_ in my_list:
+#     print("Tipul obiectului", object_, type(object_).__name__)
+
+#---------------------------------------------------------------------------------------
+
+# Pentru acest exercițiu aveți începutul codului care cere input de la utilizator cu un șir
+# separat prin virgula și îl împarte într-o listă.
+# Parcurgeti lista generata din input-ul utilizatorului si eliminati dublurile din ea
+
+my_list = (input("Intoduceti lista de taskuri :"))
+my_list_taskuri = my_list.split(",")
+print(my_list_taskuri)
+for task in my_list_taskuri.copy():
+    my_list_taskuri.count(task)
+    print(f"Task-ul: {task} se regaseste de:{my_list_taskuri.count(task)}")
+    if my_list_taskuri.count(task) >1:
+            my_list_taskuri.remove(task)
 
 

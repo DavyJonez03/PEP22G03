@@ -84,37 +84,43 @@
 #LISTE
 
 # print('#'*80)
-my_var = "abc"
+# my_var = "abc"
 # my_list = ["a", 123, True, my_var]
 #
 # for object_ in my_list:
 #     print(object_)
 # print('#'*80)
-my_list = ["a", 123, True, my_var]
+# my_list = ["a", 123, True, my_var]
 #index      0    1     2      3
 #index neg -4   -3    -2     -1
 
-my_string = "Hello Python"
+# my_string = "Hello Python"
 #
 # for object_ in my_list:
 #     print(id(my_list))
 #     my_list.append(object_) # - list of mutable - never do this
 #
 # print(my_list)
-list_copy = my_list.copy()
-print('copied ID: ', [id(list_copy)])
-for object_ in my_list.copy(): # - make a copy so we can use append
-    print(id(my_list))
-    my_list.append(object_)
+# list_copy = my_list.copy()
+# print('copied ID: ', [id(list_copy)])
+# for object_ in my_list.copy(): # - make a copy so we can use append
+#     print(id(my_list))
+#     my_list.append(object_)
 
-print(my_list)
+# print(my_list)
+#
+# for object_ in my_string:
+#     print(id(my_string))
+#     my_string += object_ # - string is immutable - it can be change while iterated
+#
+# print(my_string)
 
-for object_ in my_string:
-    print(id(my_string))
-    my_string += object_ # - string is immutable - it can be change while iterated
-
-print(my_string)
-
+#Operatii liste
+# my_list = ["a", 123, True, my_var]
+# print(my_list.count('a'))
+# print(my_list.append('b'), f'modified list: {my_list}')
+# print(my_list.remove('a'), f'modified list: {my_list}')
+# print(my_list.pop(3), f'modified list: {my_list}')
 
 
 
