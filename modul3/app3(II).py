@@ -56,5 +56,5 @@ for task in my_list_taskuri.copy():
     print(f"Task-ul: {task} se regaseste de:{my_list_taskuri.count(task)}")
     if my_list_taskuri.count(task) >1:
             my_list_taskuri.remove(task)
-
+print(my_list)
 
