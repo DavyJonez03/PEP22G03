@@ -16,11 +16,11 @@
 # prints False if n is less than 100, and True if n is greater than or
 # equal to 100.
 
-n = int(input())
+# n = int(input())
 # print(bool(2 * n < 100))
 # print(bool(2 * n >= 100))
 
-print(2*n<100"\n"2*n>=100"\n")
+# print(2*n<100"\n"2*n>=100"\n")
 
 
 
