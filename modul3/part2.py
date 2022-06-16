@@ -76,6 +76,12 @@
 #             00000011
 #      result 11111101 = -3
 print((146 ^ 21) ^ 21)
+print((ord('a') ^ ord('b')) ^ ord('b'))
+print((chr('a') ^ chr('b')) ^ chr('b'))
+print(ord('d'))
+print(chr(100))
+
+
 
 
 
