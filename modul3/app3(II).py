@@ -48,13 +48,13 @@
 # separat prin virgula și îl împarte într-o listă.
 # Parcurgeti lista generata din input-ul utilizatorului si eliminati dublurile din ea
 
-my_list = (input("Intoduceti lista de taskuri :"))
-my_list_taskuri = my_list.split(",")
-print(my_list_taskuri)
-for task in my_list_taskuri.copy():
-    my_list_taskuri.count(task)
-    print(f"Task-ul: {task} se regaseste de:{my_list_taskuri.count(task)}")
-    if my_list_taskuri.count(task) >1:
-            my_list_taskuri.remove(task)
-print(my_list)
+# my_list = (input("Intoduceti lista de taskuri :"))
+# my_list_taskuri = my_list.split(",")
+# print(my_list_taskuri)
+# for task in my_list_taskuri.copy():
+#     my_list_taskuri.count(task)
+#     print(f"Task-ul: {task} se regaseste de:{my_list_taskuri.count(task)}")
+#     if my_list_taskuri.count(task) >1:
+#             my_list_taskuri.remove(task)
+# print(my_list)
 
