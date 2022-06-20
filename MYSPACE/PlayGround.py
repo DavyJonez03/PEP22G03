@@ -22,5 +22,28 @@
 
 # print(2*n<100"\n"2*n>=100"\n")
 
+#MODUL 3:
+#PROBLEMA 1
+# name = input("The plant is:")
+# if name == "Spathiphyllum":
+#     print("Yes - Spathiphyllum  is th best pant ever")
+# elif name == "Spathiphyllum".lower():
+#     print("No, I want a big Spathiphyllum!")
+# else:
+#     print("Spathiphyllum! Not " +name+"!")
+#PROBLEMA 2
+# income = float(input("Enter the annual income: "))
+# tax = 0
+# if income <=  85528:
+#     tax = 18 / 100 * income - 556.2
+# elif income > 85528:
+#     tax = 14839 + 32 / 100 * (income - 85528)
+#
+# if tax <= 0:
+#     tax = 0
+#
+# tax = round(tax, 0)
+# print("The tax is:", tax, "thalers")
+
 
 
