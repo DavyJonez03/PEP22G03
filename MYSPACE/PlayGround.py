@@ -52,5 +52,13 @@
 #     counter -= 1
 # print("Outside the loop.", counter)
 
+#problema modulul 3
+
+# secret_number = 777
+# name = int(input())
+# while name != secret_number:
+#     print("Ha ha! You're stuck in my loop!")
+# else:
+#     print("Well done, muggle! You are free now.")
 
 
