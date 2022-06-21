@@ -73,6 +73,18 @@ arg1 = 2
 # level1(1)
 # print('Variabila globala: ', arg1)
 
+# --Call method--
+
+def test():
+    print('Dummy')
+
+test()
+test.__call__()
+
+# test.abcd = 3
+# print(dir(test))
+
+
 
 
 
