@@ -21,6 +21,23 @@
 # print("Numarul numerelor reale este:", counter2)
 # print("Numarul sirurilor din lista este:", counter3)
 
+#SAU 1.b)
+
+# integers = []
+# floats = []
+# strings = []
+# for element in lista:
+#      if type(element) is int:
+#          integers.append(element)
+#      if type(element) is float:
+#          floats.append(element)
+#      if type(element) is str:
+#          strings.append(element)
+#
+# print("Numarul numerelor intregi este:", len(integers))
+# print("Numarul numerelor reale este:", len(floats))
+# print("Numarul sirurilor din lista este:", len(strings))
+
 #2.
 
 # lista = (input("SIR:"))
@@ -31,5 +48,17 @@
 #     if (litera.lower() in lista_vocale):
 #         counter += 1
 # print(counter)
+
+#SAU 2.
+
+# nume = input("Adaugati un nume:")
+# lista_nume = list(nume)
+# vocale = []
+# for vocala in lista_nume:
+#     if vocala.lower() in ('a', 'e', 'i', 'o', 'u'):
+#         vocale.append(vocala)
+# print("Vocale in cuvantul dvs:", len(vocale))
+
+
 
 

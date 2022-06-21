@@ -45,5 +45,12 @@
 # tax = round(tax, 0)
 # print("The tax is:", tax, "thalers")
 
+#counter 5,4,3,2,1,0
+# counter = 5
+# while counter:
+#     print("Inside the loop.", counter)
+#     counter -= 1
+# print("Outside the loop.", counter)
+
 
 
