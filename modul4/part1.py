@@ -33,16 +33,50 @@
 
 # --Variabile--
 
-add = 200
-sub = 100
-div = 3
-def putere_n(n, x, add=100, sub=0):
-    print('Valoare1 argument cheie', add)
-    print('Valoare2 argument cheie', sub)
-    print('Variabilele sunt:', x, n)
-    return x ** n + add + sub
+# add = 200
+# sub = 100
+# div = 3
+# def putere_n(n, x, add=100, sub=0):
+#     print('Valoare1 argument cheie', add)
+#     print('Valoare2 argument cheie', sub)
+#     print('Variabilele sunt:', x, n)
+#     return (x ** n + add + sub) / div
+#
+# print(putere_n(3, 3, 25, -25))
 
-print(putere_n(3, 3))
+# --Variabile Globale--
+
+# add = 200
+# sub = 100
+# div = 3
+# def putere_n(n, x, add=100, sub=0):
+#     print('Valoare1 argument cheie', add)
+#     print('Valoare2 argument cheie', sub)
+#     print('Variabilele sunt:', x, n)
+#     div = 5
+#     return (x ** n + add + sub) / div
+#
+# print(putere_n(3, 3, 25, -25))
+# print('Div result: ', div)
+
+# --Nested functions--
+arg1 = 2
+# def level1(arg1):
+#     print('Inainte de modificare: ', arg1)
+#     def level2(arg2):
+#         nonlocal arg1
+#         arg1 = 10
+#         print(arg2 + arg1)
+#     level2(3)
+#     print('Dupa modificare: ',arg1)
+#
+# level1(1)
+# print('Variabila globala: ', arg1)
+
+
+
+
+
 
 
 
