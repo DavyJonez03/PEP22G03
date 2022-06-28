@@ -82,7 +82,7 @@ test()
 test.__call__()
 
 # test.abcd = 3
-# print(dir(test))
+# print(dir(print))
 
 
 
