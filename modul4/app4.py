@@ -134,9 +134,9 @@
 #PART II
 
 def suma(lista: list):
-    pass
+    return(sum(lista))
 def medie(lista: list):
-    pass
+    return(sum(lista) / len(sum(lista)))
 def putere(lista: list):
     pass
 meniu = {
@@ -164,8 +164,12 @@ Meniu:
 4. Iesire
 Introduceti optiunea dvs.""")
 
-for numar, optiune in meniu.items():
-    print(f"{numar} --> {optiune}")
+my_function = meniu[mesaj]
+
+result = (my_function(numbers))
+print(result)
+
+
 
 
 
