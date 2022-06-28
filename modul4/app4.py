@@ -73,60 +73,103 @@
 # checklogs()
 
 #----4----
+#
+# angajat1 = {
+# 'nume': 'Ana-Maria Popescu',
+# 'departament': 'IT',
+# 'ID': 3409,
+# 'Salar': 4560,
+# }
+# angajat2 = {
+# 'nume': 'Marian Muntean',
+# 'departament': 'IT',
+# 'ID': 2235,
+# 'Salar': 4556,
+# }
+# angajat3 = {
+# 'nume': 'Maria Manea',
+# 'departament': 'HR',
+# 'ID': 1908,
+# 'Salar': 6755,
+# }
+# angajat4 = {
+# 'nume': 'Oana Popa',
+# 'departament': 'HR',
+# 'ID': 1977,
+# 'Salar': 5400,
+# }
+# angajat5 = {
+# 'nume': 'David Codru',
+# 'departament': 'Management',
+# 'ID': 1988,
+# 'Salar': 12900,
+# }
 
-angajat1 = {
-'nume': 'Ana-Maria Popescu',
-'departament': 'IT',
-'ID': 3409,
-'Salar': 4560,
-}
-angajat2 = {
-'nume': 'Marian Muntean',
-'departament': 'IT',
-'ID': 2235,
-'Salar': 4556,
-}
-angajat3 = {
-'nume': 'Maria Manea',
-'departament': 'HR',
-'ID': 1908,
-'Salar': 6755,
-}
-angajat4 = {
-'nume': 'Oana Popa',
-'departament': 'HR',
-'ID': 1977,
-'Salar': 5400,
-}
-angajat5 = {
-'nume': 'David Codru',
-'departament': 'Management',
-'ID': 1988,
-'Salar': 12900,
-}
+# lista_dict = [angajat1, angajat2, angajat3, angajat4, angajat5]
 
-lista_dict = [angajat1, angajat2, angajat3, angajat4, angajat5]
+# #a)
 
-#a)
+# for angajat in lista_dict:
+#     if angajat['Salar'] > 5000:
+#         print(f"{angajat['nume']} -> {angajat['departament']}{angajat['ID']}")
 
-for angajat in lista_dict:
-    if angajat['Salar'] > 5000:
-        print(f"{angajat['nume']} -> {angajat['departament']}{angajat['ID']}")
+# #b)
 
-#b)
-
-list = []
-for angajat in lista_dict:
-    if angajat['departament'] != 'Management':
-        list.append(angajat['nume'])
-    print(list)
+# list = []
+# for angajat in lista_dict:
+#     if angajat['departament'] != 'Management':
+#         list.append(angajat['nume'])
+#     print(list)
 
 #c)
 
-counter = 0
-suma = 0
-for angajat in lista_dict:
-    if angajat['departament'] == 'HR':
-        counter += 1
-        suma += angajat['Salar']
-print(suma/counter)
+# counter = 0
+# suma = 0
+# for angajat in lista_dict:
+#     if angajat['departament'] == 'HR':
+#         counter += 1
+#         suma += angajat['Salar']
+# print(suma/counter)
+
+#PART II
+
+def suma(lista: list):
+    pass
+def medie(lista: list):
+    pass
+def putere(lista: list):
+    pass
+meniu = {
+"1": medie,
+"2": suma,
+"3": putere
+}
+#a)
+
+numbers = []
+data = input("Introduceti numere. Cand sunteti gata, intoduceti x. \n Numar:")
+
+while data != 'x':
+    numbers.append(float(data))
+    data = input("Numar:")
+print(numbers)
+
+#b)
+
+mesaj = input("""
+Meniu:
+1. Media numerelor
+2. Suma numerelor
+3. Puterea numerelor din lista de numere
+4. Iesire
+Introduceti optiunea dvs.""")
+
+for numar, optiune in meniu.items():
+    print(f"{numar} --> {optiune}")
+
+
+
+
+
+
+
