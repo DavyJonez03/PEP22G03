@@ -40,38 +40,38 @@
 
 # --Dictionary--
 
-my_dict = {'key1': None, 123: 'abcd', True: (1,2,3)}
-
-print(my_dict)
-print(type(my_dict))
-
-# dictionary methods
-
-print(my_dict.keys())
-for key in my_dict.keys():
-    print(key)
-
-print(my_dict.values())
-for value in my_dict.values():
-    print(value)
-
-print(my_dict.items())
-for item in my_dict.values():
-    print(item)
-
-for key, value in my_dict.items():
-    print(key, value)
+# my_dict = {'key1': None, 123: 'abcd', True: (1,2,3)}
+#
+# print(my_dict)
+# print(type(my_dict))
+#
+# # dictionary methods
+#
+# print(my_dict.keys())
+# for key in my_dict.keys():
+#     print(key)
+#
+# print(my_dict.values())
+# for value in my_dict.values():
+#     print(value)
+#
+# print(my_dict.items())
+# for item in my_dict.values():
+#     print(item)
+#
+# for key, value in my_dict.items():
+#     print(key, value)
 
 # understanding dict items
 
-result = my_dict.items()
-itered = result.__iter__()
-key, value = next(itered)
-print(key, value)
-key, value = next(itered)
-print(key, value)
-key, value = next(itered)
-print(key, value)
+# result = my_dict.items()
+# itered = result.__iter__()
+# key, value = next(itered)
+# print(key, value)
+# key, value = next(itered)
+# print(key, value)
+# key, value = next(itered)
+# print(key, value)
 
 
 

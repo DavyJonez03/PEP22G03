@@ -133,41 +133,41 @@
 
 #PART II
 
-def suma(lista: list):
-    return(sum(lista))
-def medie(lista: list):
-    return(sum(lista) / len(sum(lista)))
-def putere(lista: list):
-    pass
-meniu = {
-"1": medie,
-"2": suma,
-"3": putere
-}
-#a)
-
-numbers = []
-data = input("Introduceti numere. Cand sunteti gata, intoduceti x. \n Numar:")
-
-while data != 'x':
-    numbers.append(float(data))
-    data = input("Numar:")
-print(numbers)
-
-#b)
-
-mesaj = input("""
-Meniu:
-1. Media numerelor
-2. Suma numerelor
-3. Puterea numerelor din lista de numere
-4. Iesire
-Introduceti optiunea dvs.""")
-
-my_function = meniu[mesaj]
-
-result = (my_function(numbers))
-print(result)
+# def suma(lista: list):
+#     return(sum(lista))
+# def medie(lista: list):
+#     return(sum(lista) / len(sum(lista)))
+# def putere(lista: list):
+#     pass
+# meniu = {
+# "1": medie,
+# "2": suma,
+# "3": putere
+# }
+# #a)
+#
+# numbers = []
+# data = input("Introduceti numere. Cand sunteti gata, intoduceti x. \n Numar:")
+#
+# while data != 'x':
+#     numbers.append(float(data))
+#     data = input("Numar:")
+# print(numbers)
+#
+# #b)
+#
+# mesaj = input("""
+# Meniu:
+# 1. Media numerelor
+# 2. Suma numerelor
+# 3. Puterea numerelor din lista de numere
+# 4. Iesire
+# Introduceti optiunea dvs.""")
+#
+# my_function = meniu[mesaj]
+#
+# result = (my_function(numbers))
+# print(result)
 
 
 
