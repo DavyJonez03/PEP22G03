@@ -170,25 +170,26 @@
 # print(result)
 
 # --Probleme exceptii--
-def fct_medie(lista_varste):
-    return sum(lista_varste) / len(lista_varste)
-def media_varsta():
-    lista = []
-    nr_persoane = input("Cati participanti avem la sondaj:")
-    for nr in range (int(nr_persoane)):
-        mesaje = "Introduceti varsta participantului"
-        while True:
-            try:
-                varsta = int(input(f"{mesaje} {nr+1}:"))
-                lista.append(varsta)
-                break
-            except ValueError:
-                mesaje = "Reintroduceti varsta participantului"
-                continue
-    var1 = fct_medie(lista)
-    print("Media de varsta a participantilor la sondajul de opinie este:", var1)
 
-media_varsta()
+# def fct_medie(lista_varste):
+#     return sum(lista_varste) / len(lista_varste)
+# def media_varsta():
+#     lista = []
+#     nr_persoane = input("Cati participanti avem la sondaj:")
+#     for nr in range (int(nr_persoane)):
+#         mesaje = "Introduceti varsta participantului"
+#         while True:
+#             try:
+#                 varsta = int(input(f"{mesaje} {nr+1}:"))
+#                 lista.append(varsta)
+#                 break
+#             except ValueError:
+#                 mesaje = "Reintroduceti varsta participantului"
+#                 continue
+#     var1 = fct_medie(lista)
+#     print("Media de varsta a participantilor la sondajul de opinie este:", var1)
+#
+# media_varsta()
 
 
 
