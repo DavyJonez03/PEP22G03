@@ -60,9 +60,9 @@
 #     print("Ha ha! You're stuck in my loop!")
 # else:
 #     print("Well done, muggle! You are free now.")
-text = "OpenEDG Python Institute"
-for letter in text:
-    if letter == "P":
-        break
-    print(letter, end="")
+# text = "OpenEDG Python Institute"
+# for letter in text:
+#     if letter == "P":
+#         break
+#     print(letter, end="")
 
