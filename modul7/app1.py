@@ -9,9 +9,10 @@ class Product:
         self.stock = input("Introduceti stocul produselor:: ")
 
     def __repr__(self):
-        return 10 * "=" + "\n" + f"Categoria: {self.category}" + "\n" +10 * "=" + "\n"
+        return 10 * "=" + "\n" + f"Categoria: {self.category}" + "\n" +10 * "=" + "\n" + 10 * "=" + "\n" + f"Numele: {self.name}" + "\n" + 10 * "=" + "\n" + 10 * "=" + "\n" + f"Pretul: {self.price}" + "\n" + 10 * "=" + "\n" + 10 * "=" + "\n" + f"Stocul: {self.stock}" + "\n" + 10 * "=" + "\n"
 
 
 if __name__ == "__main__":
     camasi = Product()
+    my_value = camasi.__repr__()
     print(camasi)
