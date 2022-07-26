@@ -109,21 +109,29 @@
 
 
 
-class Vehicle:
-    def headlights(self):
-        print("Has 1 headlights")
 
-class Car():
-    def taking_corner(self):
-        print("Doesn't lean in corners")
 
-class Bike(Car):
-    def taking_corner2(self):
-        print("Leans in corners")
 
-class Slingshoot(Bike, Car, Vehicle):
-        pass
 
-slingshoot = Slingshoot()
-slingshoot.headlights()
-slingshoot.taking_corner()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
