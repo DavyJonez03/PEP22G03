@@ -13,10 +13,5 @@ def prime_generator():
 prime = prime_generator()
 print(next(prime))
 print(next(prime))
-print(next(prime))
-print(next(prime))
-print(next(prime))
-print(next(prime))
-print(next(prime))
 
 
