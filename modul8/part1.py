@@ -1,7 +1,7 @@
 # Generator
 
 def generate_numbers():
-    for i in range (3):
+    for i in range(3):
         yield i
     yield 20
 
@@ -11,6 +11,4 @@ print(next(my_gen))
 print(next(my_gen))
 print(next(my_gen))
 print(next(my_gen))
-# print(next(my_gen)) - This last next call will result in StopIteration
-
-
+# print(next(my_gen)) # - This last next call will result in StopIteration
