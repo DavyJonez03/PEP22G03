@@ -2,6 +2,12 @@
 import random
 adauga_cnp = input("CNP:")
 valoare_bon = input("Introduceti valoarea bonului:")
+try:
+    valoare_bon = float(valoare_bon)
+
+except:
+    pass
+
 cnp = list(map(int, adauga_cnp))
 if len(cnp) == 13:
     print("CNP-ul este valid")
@@ -40,7 +46,7 @@ lista_premii2 =["un prajitor de paine", "o consola de gaming", "o tastatura meca
 lista_premii3 =["un robot de bucatarie", "o masina", lista_premii1[0], lista_premii1[1], lista_premii1[2], lista_premii2[0], lista_premii2[1], lista_premii2[2]]
 
 
-if valoare_bon == int and float:
+if type(valoare_bon ) == float:
     if int(valoare_bon) < 100:
         print("Ati castigat:", random.choice(lista_premii1), "\nFelicitari!!!!")
     if int(valoare_bon) in range(100, 500):
@@ -48,5 +54,4 @@ if valoare_bon == int and float:
     if int(valoare_bon) > 500:
         print("Ati castigat:", random.choice(lista_premii3), "\nFelicitari!!!!")
 else:
-    valoare_bon == str
     print("Nu ati introdus o valoare corecta.")
