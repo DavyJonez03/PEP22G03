@@ -61,7 +61,7 @@ class Kronos:
         ))
 
     def write_to_file(self):
-        with open('my_file.out', "w") as file:
+        with open('../MYSPACE/my_file.out', "w") as file:
             for employee in self:
                 file.write(str(employee))
 
